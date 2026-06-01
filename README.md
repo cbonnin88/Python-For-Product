@@ -22,7 +22,7 @@ Key Implementations:
 - Scorer: The app calculates the engagement rate for a user
 - Action: The app suggests a call to action based on the user type ('Active', 'At-Risk',' Power User')
 
-## Product Analyst Metric Converter
+## [Product Analyst Metric Converter](https://www.loom.com/share/790146c7f9164b258a944e24c5d12653)
 Description: A Streamlit web app that converts standard product management metrics and estimates agile development time.
 
 Key Implementations:
