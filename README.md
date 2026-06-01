@@ -30,7 +30,7 @@ Key Implementations:
 - Converter: The app calculates the mathematical translations for MRR/ARR, Story Points to days (factoring in developer seniority), and DAU/MAU proxies.
 - Output: The app displays the final estimated metric in a clear, formatted result block for quick reference in product meetings.
 
-## User Story Generator
+## [User Story Generator](https://www.loom.com/share/fe3eb82aa0ce4aa0b6b72f23f3bb1ed9)
 Description: A Streamlit web app that facilitates the seamless creation and documentation of structured, data-focused user stories for Data Product Managers.
 
 Key Implementations:
