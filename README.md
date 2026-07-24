@@ -26,7 +26,7 @@ Key Implementations:
 - Document Compiler: The app processes the text inputs sequentially without relying on complex custom functions, dynamically structuring the data into a clean, well-formatted PDF document using the FPDF library.
 - Output: The app displays an immediate, formatted preview of the core user story statement on-screen and generates a direct download button to export the final PDF for sharing with data engineering teams.
 
-## [User Feedback Analyzer]((https://www.loom.com/share/33fffe93c8f44898b8ef58ce343e3c92)
+## [User Feedback Analyzer](https://www.loom.com/share/33fffe93c8f44898b8ef58ce343e3c92)
 Description: A Streamlit web application designed for Data Product Managers to interactively filter, analyze, and visualize user feedback from mobile app review datasets using the high-performance Polars DataFrame library in Google Colab.
 
 Key Implementations:
