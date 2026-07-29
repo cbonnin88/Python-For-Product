@@ -33,3 +33,13 @@ Key Implementations:
 - User input: The Product Manager inputs targeted search keywords (e.g., "bug", "crash", "price") and applies dynamic sidebar filters for specific mobile applications, category tags (such as "fitness" or "running"), and star ratings (1 to 5 stars) via an interactive drag-and-drop CSV uploader or local file detection.
 - Data Engine: The app leverages Polars for lightning-fast, memory-efficient data filtering and aggregation to compute real-time product KPIs—including total review volume, average star rating, and critical feedback percentages—without relying on traditional, slower pandas operations.
 - Output: The app displays an immediate, high-impact tabular view of user feedback sorted by community thumbs-up counts to highlight top pain points, alongside a customized Altair bar chart with horizontally aligned labels that clearly visualizes the overall star rating distribution.
+
+## ProductPulse Dashboard
+Description: An interactive product analytics dashboard built with Polars and Streamlit that provides real-time insights into revenue trends and customer behavioral segments.
+
+Key Implementations:
+- Data Ingestion: A flexible upload interface supporting CSV and Excel formats, featuring robust schema handling for complex datasets.
+- Data Processing: High-performance data cleaning and feature engineering (KPIs, RFM metrics, and cohort grouping) utilizing Polars' memory-efficient engine.
+- Analytics Engine: Automated A/B test statistical analysis (t-test, Mann-Whitney U, CUPED variance reduction) and predictive modeling (Random Forest churn prediction and LTV forecasting).
+- Visualization: Interactive revenue funnels and 3D user segment distributions rendered with Plotly.
+- Actionable Insights: Rolling Z-score anomaly detection to alert analysts of sudden fluctuations in daily business performance.
