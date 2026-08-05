@@ -34,7 +34,7 @@ Key Implementations:
 - Data Engine: The app leverages Polars for lightning-fast, memory-efficient data filtering and aggregation to compute real-time product KPIs—including total review volume, average star rating, and critical feedback percentages—without relying on traditional, slower pandas operations.
 - Output: The app displays an immediate, high-impact tabular view of user feedback sorted by community thumbs-up counts to highlight top pain points, alongside a customized Altair bar chart with horizontally aligned labels that clearly visualizes the overall star rating distribution.
 
-## ProductPulse Dashboard
+## [ProductPulse Dashboard](https://www.loom.com/share/46736c75e2004f06af3c7fbd90ae8b65)
 Description: An interactive product analytics dashboard built with Polars and Streamlit that provides real-time insights into revenue trends and customer behavioral segments.
 
 Key Implementations:
