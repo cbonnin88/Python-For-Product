@@ -5,3 +5,4 @@ pandas
 numpy
 polars
 plotly
+statsmodel
