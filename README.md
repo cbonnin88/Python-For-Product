@@ -43,3 +43,13 @@ Key Implementations:
 - Analytics Engine: Automated A/B test statistical analysis (t-test, Mann-Whitney U, CUPED variance reduction) and predictive modeling (Random Forest churn prediction and LTV forecasting).
 - Visualization: Interactive revenue funnels and 3D user segment distributions rendered with Plotly.
 - Actionable Insights: Rolling Z-score anomaly detection to alert analysts of sudden fluctuations in daily business performance.
+
+## EV Charging App A/B Testing
+Description: An interactive web application built with Streamlit and Python that empowers Product Managers to analyze A/B tests, calculate statistical power, and explore customer segments for an EV charging platform.
+
+Key Implementations:
+- Data Ingestion: Automated mock data generation that simulates realistic user attributes (country, persona) and behavioral metrics (charging sessions, premium subscriptions) for Western European users.
+- Data Processing: Efficient data aggregation and rule-based customer segmentation using Pandas to prepare control and variant group data for direct comparison.
+- Analytics Engine: Automated statistical analysis utilizing SciPy and Statsmodels to perform T-tests for continuous data, Z-tests for proportions, and rigorous power calculations for Minimum Detectable Effect (MDE).
+- Visualization: Interactive box plots and grouped bar charts rendered with Plotly to clearly illustrate metric distributions and feature performance across different user cohorts.
+- Actionable Insights: Clear statistical significance indicators (p-values and absolute/relative differences) and practical analyst tips to help Product Managers make data-driven feature rollout decisions.
